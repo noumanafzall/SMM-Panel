@@ -10,6 +10,8 @@
 }
 
 body{
+    overflow-x: hidden;
+    overflow-y: hidden;
     scroll-behavior: smooth;
     font-family: 'Open Sans', sans-serif;
 }
@@ -84,9 +86,16 @@ body{
 /**************************************************************************/
 
 
+/**************************************************************************/
+/*                            Section One Started                         */
+/**************************************************************************/
+
+
+/* --------------------------  Left Side  ---------------------------- */
+
 .section-one {
     width: 100%;
-    margin-top: 70px;
+    margin-top: 50px;
     margin-left: 20px;
     display: flex;
     padding: 100px 0px 0px;
@@ -138,6 +147,25 @@ body{
   .get-started:hover{
     background-color: #ff4811c4;
 }
+/* --------------------------  Right Side  ---------------------------- */
+
+.section-one-right{
+
+    width: 50%;
+    height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section-one-right img{
+    width: 60%;
+    
+    
+}
+
+
 
 /**************************************************************************/
 /*                            Section One Completed                       */
