@@ -92,7 +92,7 @@ body{
 
 .section-one {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 20px;
     display: flex;
     padding: 100px 0px 0px;
@@ -115,7 +115,6 @@ body{
 .moving-text {
     color: #111D5E;
     display: flex;
-    z-index: 1 ;
     position: relative;
 }
 
@@ -141,7 +140,7 @@ body{
     
 }
 
-  .get-started:hover{
+.get-started:hover{
     background-color: #ff4811c4;
 }
 /* --------------------------  Right Side  ---------------------------- */
@@ -164,7 +163,7 @@ body{
 .see-more{
     position: absolute;
     left: 45%;
-    bottom: 10%;
+    bottom: 5%;
     width: fit-content;
     padding: 7px 20px;
     border: 2px solid black;
@@ -202,10 +201,35 @@ body{
     box-shadow: inset 152px 0 0 1px rgb(63, 61, 86);
 }
 
-
-
-
-
 /**************************************************************************/
 /*                            Section One Completed                       */
 /**************************************************************************/
+
+
+
+/**************************************************************************/
+/*                            Section two started                         */
+/**************************************************************************/
+
+.section-two{
+    height: calc(100vh - 70px);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-heading{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif ;
+    text-transform: capitalize;
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
