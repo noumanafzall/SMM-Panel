@@ -11,7 +11,7 @@
 
 body{
     overflow-x: hidden;
-    overflow-y: hidden;
+    
     scroll-behavior: smooth;
     font-family: 'Open Sans', sans-serif;
 }
@@ -72,14 +72,11 @@ body{
     color: inherit;
 }
 
-.main-header .nav-bar ul li a::after {
-    content: '';
-    display: block;
-    width: 0%;
-    height: 2px;
-    background-color: #000;
-    transition: all .3s linear;
+.main-header .nav-bar ul li a:hover{
+    color: rgb(8, 255, 255);
+    
 }
+
 
 /**************************************************************************/
 /*                             NavBar Completed                           */
@@ -164,6 +161,48 @@ body{
     
     
 }
+.see-more{
+    position: absolute;
+    left: 45%;
+    bottom: 10%;
+    width: fit-content;
+    padding: 7px 20px;
+    border: 2px solid black;
+    border-radius: 35px;
+    box-shadow: inset 0 0 0 0 rgb(63, 61, 86);
+    cursor: pointer;
+    transition: all ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    animation: animate 3s ease infinite;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.see-more span{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.see-more:hover {
+    color: white;
+    border: transparent;
+    box-shadow: inset 152px 0 0 1px rgb(63, 61, 86);
+}
+
+
 
 
 
