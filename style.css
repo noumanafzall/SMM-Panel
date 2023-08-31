@@ -264,6 +264,11 @@ body{
     border-radius: 15px;
     cursor: pointer;
     transition: all 0.1s linear;
+    background-color: #33333356;
+}
+.card:hover{
+    background-color: #ff4811c4;
+    color: white;
 }
 
 .introOfService{
