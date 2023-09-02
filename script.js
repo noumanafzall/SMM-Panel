@@ -6,6 +6,7 @@ scrollDown.addEventListener('click' , (e) => {
     })
 })
 
+// opening login/signup forms
 
 function loginPage(){
     var loginPage = 'login.html';
