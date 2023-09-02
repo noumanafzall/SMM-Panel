@@ -6,7 +6,7 @@ scrollDown.addEventListener('click' , (e) => {
     })
 })
 
-// let getStarted = document.getElementById('get-started');
+
 function loginPage(){
     var loginPage = 'login.html';
     window.open(loginPage);
