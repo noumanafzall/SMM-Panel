@@ -6,10 +6,14 @@ scrollDown.addEventListener('click' , (e) => {
     })
 })
 
-// opening login/signup forms
+// opening login form
 
 function loginPage(){
     var loginPage = 'login.html';
     window.open(loginPage);
 }
 document.getElementById('get-started').addEventListener('click', loginPage);   
+
+
+
+// opening signup form
