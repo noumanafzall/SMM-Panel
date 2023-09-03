@@ -17,3 +17,8 @@ document.getElementById('get-started').addEventListener('click', loginPage);
 
 
 // opening signup form
+function regPage(){
+var regPage = 'signup.html';
+window.open(regPage);
+}
+document.getElementById('register-link').addEventListener('click',regPage);
