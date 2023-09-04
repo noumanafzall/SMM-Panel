@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="signup.css">
+    <script src="https://kit.fontawesome.com/8d54003bde.js" crossorigin="anonymous"></script>
 
     <title>SignUp</title>
 </head>
@@ -12,20 +13,32 @@
     <div class="signUp-wrapper">
         <form>
             <h1>SignUp</h1>
-            <div class="input-box">
+            <div class="input-box success">
                 <input type="text" placeholder="Enter Name">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small class="eMessage">Error Message</small>
+            </div>
+
+            <div class="input-box error">
+                <input type="email" placeholder="Enter Email">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small class="eMessage">Error Message</small>
             </div>
 
             <div class="input-box">
-                <input type="text" placeholder="Enter Email">
+                <input type="password" placeholder="Enter password">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small class="eMessage">Error Message</small>
             </div>
 
             <div class="input-box">
-                <input type="text" placeholder="Enter password">
-            </div>
-
-            <div class="input-box">
-                <input type="text" placeholder="Comfirm password">
+                <input type="password" placeholder="Comfirm password">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small class="eMessage">Error Message</small>
             </div>
 
             <div class="show-password">
