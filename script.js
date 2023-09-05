@@ -22,3 +22,6 @@ var regPage = 'signup.html';
 window.open(regPage);
 }
 document.getElementById('register-link').addEventListener('click',regPage);
+
+
+

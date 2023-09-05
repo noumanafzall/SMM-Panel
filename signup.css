@@ -69,22 +69,23 @@ body{
 
 /* changing borders and icons on success and error */
 
-.input-box.success input, .input-box.success i.fa-circle-check{
+.input-box.success input{
     border-color: rgb(52, 253, 52);
     visibility: visible;
-    color: rgb(52, 253, 52);
 }
 
-.input-box.error input, .input-box.error i.fa-circle-exclamation, .input-box.error .eMessage{
+.input-box.success i.fa-circle-check{
+    visibility: visible;
+    color: rgb(52, 253, 52);   
+}
+
+.input-box.error input, .input-box.error i.fa-circle-exclamation{
     border-color: rgb(252, 48, 48);
     visibility: visible;
     color: red;
 }
 
 /* ------------------------------------------------- */
-
-
-
 
 
 .show-password {

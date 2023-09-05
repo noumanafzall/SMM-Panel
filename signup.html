@@ -10,44 +10,44 @@
     <title>SignUp</title>
 </head>
 <body>
-    <div class="signUp-wrapper">
-        <form>
+    <div class="signUp-wrapper" >
+        <form id="signupForm">
             <h1>SignUp</h1>
-            <div class="input-box success">
-                <input type="text" placeholder="Enter Name">
-                <i class="fa-solid fa-circle-check"></i>
-                <i class="fa-solid fa-circle-exclamation"></i>
-                <small class="eMessage">Error Message</small>
-            </div>
 
-            <div class="input-box error">
-                <input type="email" placeholder="Enter Email">
+            <div class="input-box">
+                <input type="text" placeholder="Enter Name" id="uName">
                 <i class="fa-solid fa-circle-check"></i>
                 <i class="fa-solid fa-circle-exclamation"></i>
-                <small class="eMessage">Error Message</small>
+                <small>Error Message</small>
             </div>
 
             <div class="input-box">
-                <input type="password" placeholder="Enter password">
+                <input type="email" placeholder="Enter Email" id="email" autocomplete="email">
                 <i class="fa-solid fa-circle-check"></i>
                 <i class="fa-solid fa-circle-exclamation"></i>
-                <small class="eMessage">Error Message</small>
+                <small>Error Message</small>
             </div>
 
             <div class="input-box">
-                <input type="password" placeholder="Comfirm password">
+                <input type="password" placeholder="Enter password" id="ePass">
                 <i class="fa-solid fa-circle-check"></i>
                 <i class="fa-solid fa-circle-exclamation"></i>
-                <small class="eMessage">Error Message</small>
+                <small>Error Message</small>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Comfirm password" id="cPass">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error Message</small>
             </div>
 
             <div class="show-password">
-                <input type="checkbox">
-                <label>Show password</label>
-                
+                 <input type="checkbox"> 
+                <label>Show password</label> 
             </div>
 
-            <button type="submit" class="btn">Register</button>
+            <button class="btn" id="btn" >Submit</button>
 
             <div class="login-link">
                 <p>Already have an acoount! &nbsp; &nbsp;<a href="login.html">login here</a></p>
@@ -56,6 +56,6 @@
         </form>
     </div>
 
-    <script src="script.js"></script>
+    <script src='./signup.js'></script>
 </body>
 </html>
