@@ -79,10 +79,14 @@ body{
     color: rgb(52, 253, 52);   
 }
 
-.input-box.error input, .input-box.error i.fa-circle-exclamation{
+.input-box.error small, .input-box.error i.fa-circle-exclamation{
     border-color: rgb(252, 48, 48);
     visibility: visible;
     color: red;
+}
+
+.input-box.error input{
+    border-color: rgb(252, 48, 48);
 }
 
 /* ------------------------------------------------- */
